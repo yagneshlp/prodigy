@@ -1049,10 +1049,16 @@ a, input, textarea, select {
     outline: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h5, h6 {
     font-weight: 700;
     line-height: 1.33333;
     color: #1f1c2f;
+}
+
+h4 {
+  font-weight: 300;
+  font-size: 20px;
+  color: #1f1c2f;
 }
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -1077,9 +1083,7 @@ h3 {
     font-size: 30px;
 }
 
-h4 {
-    font-size: 24px;
-}
+
 
 h5 {
     font-size: 16px;
@@ -1096,7 +1100,7 @@ h3, h1, h2, h3 {
 
 h4, h5, h6 {
     margin-top: 0;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 img {
